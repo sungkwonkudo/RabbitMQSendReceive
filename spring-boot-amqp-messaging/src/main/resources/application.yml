@@ -1,9 +1,0 @@
-security:
- basic:
-   enabled: false
-spring:
- rabbitmq:
-   host: ec2-54-84-171-178.compute-1.amazonaws.com
-   port: 5672
-   username: guest
-   password: guest
