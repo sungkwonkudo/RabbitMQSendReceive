@@ -7,3 +7,9 @@ This one has both the sender and receiver in the same service.
 These are essentially spring-boot-amqp-messaging, except separated.
 There is virtually nothing different besides the fact that it's 2 
 separated spring boot apps, with nearly the exact same files. 
+
+This repository was forked and modified from:
+https://github.com/mechero/spring-boot-amqp-messaging
+
+The link to the original tutorial:
+https://thepracticaldeveloper.com/2016/10/23/produce-and-consume-json-messages-with-spring-boot-amqp/
