@@ -8,6 +8,7 @@ These are essentially spring-boot-amqp-messaging, except separated.
 There is virtually nothing different besides the fact that it's 2 
 separated spring boot apps, with nearly the exact same files. 
 
+
 This repository was forked and modified from:
 https://github.com/mechero/spring-boot-amqp-messaging
 
