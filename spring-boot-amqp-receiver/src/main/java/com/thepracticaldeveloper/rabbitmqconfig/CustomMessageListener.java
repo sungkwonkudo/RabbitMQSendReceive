@@ -16,10 +16,4 @@ public class CustomMessageListener {
         log.info("Received message as generic: {}", message.toString());
         return "tested 1";
     }
-
-    @RabbitListener(queues = MessagingApplication.QUEUE_SPECIFIC_NAME)
-    public String receiveMessage(final CustomMessage customMessage) {
-        log.info("Received message as specific class: {}", customMessage.toString());
-        return "tested 2";
-    }
 }

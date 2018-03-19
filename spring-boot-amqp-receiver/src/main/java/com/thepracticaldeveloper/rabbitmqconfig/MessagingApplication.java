@@ -10,7 +10,6 @@ public class MessagingApplication {
 
 	public static final String EXCHANGE_NAME = "test.rabbit";
 	public static final String QUEUE_GENERIC_NAME = "test.rabbit.queue";
-	public static final String QUEUE_SPECIFIC_NAME = "test.rabbit.queue";
 	public static final String ROUTING_KEY = "thisisakey";
 
 	public static void main(String[] args) {
